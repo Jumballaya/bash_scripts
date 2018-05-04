@@ -24,7 +24,7 @@ if [ "$1" = "-v" ]; then
 fi
 
 if [ "$1" = "-i" ]; then
-  remove_volumes
+  remove_images
 fi
 
 if [ "$1" = "-c" ]; then
