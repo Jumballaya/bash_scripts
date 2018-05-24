@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Cleaning up Docker..."
+
 function kill_containers {
   docker ps -q | xargs docker kill
   docker ps -a -q | xargs docker rm
